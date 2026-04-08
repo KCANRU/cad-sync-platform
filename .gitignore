@@ -1,23 +1,23 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
+# Laravel-specific ignores
+vendor/
+composer.lock
 .env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-/auth.json
-/.fleet
-/.idea
-/.nova
-/.vscode
-/.zed
+.env.local
+bootstrap/cache/
+storage/logs/
+storage/framework/
+
+# Dependencies
+node_modules/
+
+# Compiled files
+*.php~
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
